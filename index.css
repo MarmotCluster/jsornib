@@ -84,32 +84,24 @@ body {
   width: 100%;
   user-select: none;
   overflow-y: scroll;
-  padding: 0.5rem;
   background-color: #333;
-}
-.viewer::before {
-  content: "";
-  filter: grayscale(100%) hue-rotate(90deg);
-  transform: translate(-50%, -50%);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  display: block;
-  width: min(82dvw, 256px);
-  height: min(82dvh, 256px);
-  background-image: url("./images/logo.png");
-  background-size: contain;
+  scroll-behavior: smooth;
+  background-image: url("./images/logo-_solid.png");
+  background-size: min(82dvh, 256px);
   background-repeat: no-repeat;
   background-position: center;
-  pointer-events: none;
-  user-select: none;
-  touch-action: none;
-  z-index: 0;
-  opacity: 0.2;
+}
+.viewer__bg {
+  content: "";
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  border: 1px solid red;
 }
 .viewer__content {
   position: relative;
   z-index: 1;
+  padding: 0.5rem;
 }
 
 .logo {

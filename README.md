@@ -8,7 +8,9 @@ light weighted online json formatter inspired by <b>chrome devtools</b>.
 </p>
 
 ## usage
+
 drop a file with extension in `.json` to structure new.
 
 ## looking for more features?
+
 contact to me [here](https://github.com/MarmotCluster/jsornib/issues)
