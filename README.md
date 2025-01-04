@@ -13,4 +13,4 @@ drop a file with extension in `.json` to structure new.
 
 ## have any suggestions?
 
-contact to me [here](https://github.com/MarmotCluster/jsornib/issues)
+contact [here](https://github.com/MarmotCluster/jsornib/issues)
