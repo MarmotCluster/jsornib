@@ -13,7 +13,7 @@
       const searchParams = window.location.search;
 
       // ... redirect to index.html with the original path as a parameter
-      const redirectUrl = `jsornib/?redirect=${encodeURIComponent(
+      const redirectUrl = `/jsornib/?redirect=${encodeURIComponent(
         originalPath
       )}${searchParams}`;
       window.location.replace(redirectUrl);
