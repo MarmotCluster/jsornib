@@ -75,6 +75,59 @@ body {
   transition: color 0.2s ease;
 }
 
+.button-primary {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: #e56f3a;
+  transition: background-color 0.06s ease-in;
+  color: #f4f4f4;
+  border-radius: 0;
+  padding: 0.25rem 1rem;
+  width: fit-content;
+}
+.button-primary:active {
+  background-color: #721e0f;
+}
+
+.no-shrink {
+  flex-shrink: 0;
+}
+.no-wrap {
+  white-space: nowrap;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+.font-regular {
+  font-weight: normal;
+}
+.font-light {
+  font-weight: light;
+}
+
+.display-flex {
+  display: flex;
+}
+.display-none {
+  display: none;
+}
+
+.flex-direction-col {
+  flex-direction: column;
+}
+.flex-direction-row {
+  flex-direction: row;
+}
+
+.gap-col {
+  column-gap: 0.5rem;
+}
+.gap-row {
+  row-gap: 0.5rem;
+}
+
 /* **  ** */
 .header {
   height: 64px;
@@ -86,11 +139,15 @@ body {
 .header-logo {
   width: 48px;
   height: 48px;
+  flex-shrink: 0;
   background-image: url("./images/logo.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
+}
+.header-containable {
+  overflow-x: scroll;
 }
 
 .h-with-header {
