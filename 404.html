@@ -2,9 +2,21 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
     <meta http-equiv="refresh" content="0; url=/" />
     <script type="text/javascript">
-      window.location = "/jsornib";
+      // ... capture the original pathname and search
+      const originalPath = window.location.pathname;
+      const searchParams = window.location.search;
+
+      // ... redirect to index.html with the original path as a parameter
+      const redirectUrl = `jsornib/?redirect=${encodeURIComponent(
+        originalPath
+      )}${searchParams}`;
+      window.location.replace(redirectUrl);
     </script>
     <title>oops</title>
   </head>

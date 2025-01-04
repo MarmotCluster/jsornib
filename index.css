@@ -36,6 +36,11 @@ body {
   touch-action: none;
 }
 
+.fullscreen {
+  width: 100dvw;
+  height: 100dvh;
+}
+
 .primary-main {
   color: #e56f3a !important;
 }
@@ -57,6 +62,17 @@ body {
 }
 .secondary-dark {
   color: #405711 !important;
+}
+
+.link:active {
+  color: #721e0f;
+}
+.link {
+  cursor: pointer;
+  user-select: none;
+  text-decoration: underline;
+  color: #e56f3a;
+  transition: color 0.2s ease;
 }
 
 /* **  ** */
