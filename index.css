@@ -89,6 +89,12 @@ body {
 .button-primary:active {
   background-color: #721e0f;
 }
+.button-primary__disabled {
+  background-color: #999;
+}
+.button-primary__disabled:active {
+  background-color: #999;
+}
 
 .no-shrink {
   flex-shrink: 0;
