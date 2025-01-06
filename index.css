@@ -15,6 +15,11 @@ body {
   height: 100%;
 }
 
+button,
+label {
+  font-size: 0.875rem;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -75,6 +80,9 @@ body {
   transition: color 0.2s ease;
 }
 
+.button {
+  position: relative;
+}
 .button-primary {
   cursor: pointer;
   outline: none;
@@ -94,6 +102,12 @@ body {
 }
 .button-primary__disabled:active {
   background-color: #999;
+}
+.button__wrapper {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: red;
 }
 
 .no-shrink {
@@ -130,8 +144,20 @@ body {
 .gap-col {
   column-gap: 0.5rem;
 }
+.gap-col-half {
+  column-gap: 0.25rem;
+}
+.gap-col-quat {
+  column-gap: 0.125rem;
+}
 .gap-row {
   row-gap: 0.5rem;
+}
+.gap-row-half {
+  row-gap: 0.25rem;
+}
+.gap-row-quat {
+  row-gap: 0.125rem;
 }
 
 /* **  ** */

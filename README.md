@@ -9,8 +9,10 @@ light weighted online json formatter inspired by <b>chrome devtools</b>.
 
 ## usage
 
+switch tools by clicking logo on top or enter the valid paths: [`/builder`](https://marmotcluster.github.io/jsornib/builder), [`/viewer`](https://marmotcluster.github.io/jsornib/viewer).
+
 drop a file with extension in `.json` to structure new.
 
 ## have any suggestions?
 
-contact [here](https://github.com/MarmotCluster/jsornib/issues)
+create [isuue](https://github.com/MarmotCluster/jsornib/issues)
