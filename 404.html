@@ -15,7 +15,7 @@
       // ... redirect to index.html with the original path as a parameter
       const redirectUrl = `/jsornib/?redirect=${encodeURIComponent(
         originalPath
-      )}${searchParams}`;
+      )}${searchParams}&weNoLongerSupportSwitchingPagesUsingPath=true`;
       window.location.replace(redirectUrl);
     </script>
     <title>oops</title>
