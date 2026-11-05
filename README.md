@@ -12,6 +12,7 @@ light weighted online json formatter inspired by <b>chrome devtools</b>.
 - expand/collapse by key
 - merge multiple files into single `.json`.
 - keyword search using a native browser feature.
+- edit keys and values in partial.
 
 ## usage
 
